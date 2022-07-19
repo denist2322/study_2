@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Controller
-@RequestMapping("/usr/article")
+@RequestMapping("/article")
 public class ArticleController {
     @Autowired
     private ArticleRepository articleRepository;
